@@ -7,7 +7,7 @@ It's perfectly valid to follow an address and change what's at the end of it; th
 Priority Queue ?
 - No multiple inheritance in Java because of diamond problem
 <br/>
-- ## Composition
+## Composition
      - has a relationship
      
 ```
