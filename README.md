@@ -6,7 +6,7 @@ https://stackoverflow.com/questions/40480/is-java-pass-by-reference-or-pass-by-v
 It's perfectly valid to follow an address and change what's at the end of it; that does not change the variable, however.
 Priority Queue ?
 - No multiple inheritance in Java because of diamond problem
-<br/>
+
 ## Composition
      - has a relationship
      
