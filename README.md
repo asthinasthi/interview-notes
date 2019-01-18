@@ -21,6 +21,7 @@ public int getSalary(){
 
 ## Dependency Injection / IOC
 - Spring like framework handles object creation instead of sending and passing around objects
+https://stackoverflow.com/questions/9403155/what-is-dependency-injection-and-inversion-of-control-in-spring-framework
 
 ## Java8
 - Interfaces can have static methods
