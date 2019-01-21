@@ -29,3 +29,7 @@ https://stackoverflow.com/questions/9403155/what-is-dependency-injection-and-inv
 - forEach accepts a Consumer class
 - static methods of Interfaces have to be overridden if multiple interfaces are being implemented
 
+## Database/ORM
+- Entity: Class representation of tables
+- DAO: queries, findAll, persist etc.
+- Controller/Service: Multiple queries or coordination between DAO's
