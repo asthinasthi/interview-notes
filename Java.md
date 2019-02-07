@@ -33,3 +33,11 @@ https://stackoverflow.com/questions/9403155/what-is-dependency-injection-and-inv
 - Entity: Class representation of tables
 - DAO: queries, findAll, persist etc.
 - Controller/Service: Multiple queries or coordination between DAO's
+
+## Java Memory
+1. Stack : 
+Local variables, Thread specific variables of a method etc.
+Every method invocation gets its own stack
+2. Heap :
+Young Generation. Old Generation, etc. Store objects/instantiation of classes.
+3. Permanent Generation: Static classes
