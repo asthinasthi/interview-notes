@@ -1,4 +1,6 @@
-XOR property:
+# Leetcode/Algo Questions
+
+### XOR property:
 * 0 ^ 5 = 5
 * Only works during continued operation
 * 5 ^ 5 = 0
@@ -68,3 +70,5 @@ MinWindowSubstring
         - Begin Ptr movement needs to be adjusted
         - Increase Map(begin) 
         - If >0 then Decrease counter
+## Graph
+https://www.axios.com/trump-us-ai-strategy-china-8d9ef5a0-7b06-40b1-a853-2182486090da.html
