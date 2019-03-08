@@ -41,3 +41,7 @@ Every method invocation gets its own stack
 2. Heap :
 Young Generation. Old Generation, etc. Store objects/instantiation of classes.
 3. Permanent Generation: Static classes
+
+## Threading & Parallelization
+1. Single Lane Bridge Problem: https://orajavasolutions.wordpress.com/2014/05/03/single-lane-bridge-problem/
+1. `t1.join()` Main Thread waits till thread completes. Thread might have already finished/died. If finished it will return immediately. Catch `InterruptException`
