@@ -50,3 +50,22 @@ Young Generation. Old Generation, etc. Store objects/instantiation of classes.
 ## Exceptions
 1. Unchecked/Runtime Exceptions : NullPointerException, Arithmetic Exception.
 2. Checked Exceptions: Thrown or caught. 
+```
+           +-----------+
+           | Throwable |
+                   +-----------+
+                    /         \
+           /           \
+          +-------+          +-----------+
+          | Error |          | Exception |
+          +-------+          +-----------+
+       /  |  \           / |        \
+         \________/      \______/         \
+                            +------------------+
+    unchecked     checked    | RuntimeException |
+                    +------------------+
+                      /   |    |      \
+                     \_________________/
+                       
+                       unchecked
+```
