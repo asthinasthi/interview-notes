@@ -44,4 +44,9 @@ Young Generation. Old Generation, etc. Store objects/instantiation of classes.
 
 ## Threading & Parallelization
 1. Single Lane Bridge Problem: https://orajavasolutions.wordpress.com/2014/05/03/single-lane-bridge-problem/
-1. `t1.join()` Main Thread waits till thread completes. Thread might have already finished/died. If finished it will return immediately. Catch `InterruptedException`
+1. `t1.join()` Main Thread waits till thread completes. Thread might have already finished/died. If finished it will return immediately. Catch `InterruptedException` 
+1. Runnable vs Callable: The Callable interface is similar to Runnable, in that both are designed for classes whose instances are potentially executed by another thread. A Runnable, however, does not return a result and cannot throw a checked exception.
+
+## Exceptions
+1. Unchecked/Runtime Exceptions : NullPointerException, Arithmetic Exception.
+2. Checked Exceptions: Thrown or caught. 
