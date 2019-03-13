@@ -59,8 +59,8 @@ Exam Room
 Three Sum == 0
 - Sort the input arr
 - For every element find the matching elements whose sum = -curr . Ignore duplicates
-Two Pointer Problems
-MinWindowSubstring
+## Two Pointer Problems
+### MinWindowSubstring
     - Begin End Ptr
     - Create a map of T. counter = T.size
     - For every end char. Decrease map(char)
@@ -71,4 +71,3 @@ MinWindowSubstring
         - Increase Map(begin) 
         - If >0 then Decrease counter
 ## Graph
-https://www.axios.com/trump-us-ai-strategy-china-8d9ef5a0-7b06-40b1-a853-2182486090da.html
