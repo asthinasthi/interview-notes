@@ -61,6 +61,7 @@ Three Sum == 0
 - For every element find the matching elements whose sum = -curr . Ignore duplicates
 ## Two Pointer Problems
 ### MinWindowSubstring
+Keep a count of matches
     - Begin End Ptr
     - Create a map of T. counter = T.size
     - For every end char. Decrease map(char)
