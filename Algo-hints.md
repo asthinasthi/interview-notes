@@ -16,9 +16,9 @@
 https://www.geeksforgeeks.org/top-algorithms-and-data-structures-for-competitive-programming/#algo1
 Valid BST 
 use MIN, MAX at every recursion. min, max changes based on whether traversing left or right. LeetCode failed for some dumb test cases.
-LRU Cache
+#### LRU Cache
 Doubly Linked List + HashMap —> O(1) get&put
-Merge k sorted Lists
+#### Merge k sorted Lists
 * Heaps
 * Merge 2 lists —> Merge 2 Merge 2 —> Merge 4 Merge 4 —> … reverse binary division approach
 * Merge Sort 2 lists
@@ -61,7 +61,7 @@ Three Sum == 0
 - For every element find the matching elements whose sum = -curr . Ignore duplicates
 ## Two Pointer Problems
 ### MinWindowSubstring
--Keep a count of matches 
+- Keep a count of matches 
 - Begin End Ptr
 - Create a map of T. counter = T.size
 - For every end char. Decrease map(char)
