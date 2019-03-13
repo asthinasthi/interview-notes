@@ -61,14 +61,14 @@ Three Sum == 0
 - For every element find the matching elements whose sum = -curr . Ignore duplicates
 ## Two Pointer Problems
 ### MinWindowSubstring
-Keep a count of matches
-    - Begin End Ptr
-    - Create a map of T. counter = T.size
-    - For every end char. Decrease map(char)
-    - Increase the counter if map(char)>=0
-    - When counter == 0 check minLen
-        - Once minLen updated, move Begin ptr
-        - Begin Ptr movement needs to be adjusted
-        - Increase Map(begin) 
-        - If >0 then Decrease counter
+-Keep a count of matches 
+- Begin End Ptr
+- Create a map of T. counter = T.size
+- For every end char. Decrease map(char)
+- Increase the counter if map(char)>=0
+- When counter == 0 check minLen
+  - Once minLen updated, move Begin ptr
+  - Begin Ptr movement needs to be adjusted
+  - Increase Map(begin) 
+  - If >0 then Decrease counter
 ## Graph
